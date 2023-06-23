@@ -1,3 +1,5 @@
+# The Demand Forecasting Project
+
 The demand forecasting project follows a structured approach with four main sections: data wrangling, exploratory data analysis (EDA), modelling, and conclusion.
 
 ## Data Wrangling:
@@ -23,3 +25,16 @@ The script calculates the forecast accuracy metrics, such as MAPE (Mean Absolute
 It provides a summary of the findings and key takeaways from the project, including the improvement in forecast accuracy achieved by using the SARIMA model.
 It suggests exploring alternative methods, such as Facebook Prophet or XGBoost, to improve further the baseline established by SARIMA.
 Overall, this code demonstrates a comprehensive approach to demand forecasting, encompassing data preprocessing, exploratory analysis, model building, and evaluation. It provides a framework for understanding and predicting future demand patterns based on historical data.
+
+## Dependencies:
+The dependencies for this project would typically include the following Python libraries:
+
+- Pandas: Used for data manipulation and analysis
+- Matplotlib: Used for data visualization and plotting
+- Seaborn: Another data visualization library that provides a high-level interface for creating attractive and informative statistical graphics
+- Statsmodels: A library that provides statistical models and functions for time series analysis, including the SARIMA model
+- pmdarima: A library that provides an interface to the auto_arima function for automatically selecting optimal SARIMA parameters
+- NumPy: A fundamental package for scientific computing with Python, used for numerical operations
+- datetime: A module that supplies classes for working with dates and times
+- sklearn.metrics: Part of the scikit-learn library, used for calculating forecast accuracy metrics like MAPE
+
